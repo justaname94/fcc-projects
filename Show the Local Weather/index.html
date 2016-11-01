@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Show The Local Weather</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+		  crossorigin="anonymous">
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
+		<link rel="stylesheet" href="style.css"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf8">
+	</head>
+	<body>
+		<div class="container" ng-app="weather">
+			<div class="weatherCard">
+				<div class="card-top">
+					<h2 class="text-left text-capitalize city-name">Santo Domingo,</h2> <h2 class="text-right country-code"> DO</h2>
+				</div>
+				<h1 class="text-center temperature">14°</h1>
+				<h3 class="text-center description">Sky is clear</h3>
+				<img src="images/weather_icon.png" class="img-responsive icon"/>
+				<div class="additional-info">
+					<h4 class="text-left">Humidity: <span style="color:#616161">35%</span></h4>
+					<h4 class="text-left">Wind speed: <span style="color:#616161">0.96km/h</span></h4>
+				</div>
+			</div>
+		</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+		<script src="app.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

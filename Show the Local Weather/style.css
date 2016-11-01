@@ -1,0 +1,68 @@
+/*
+  COLOR PALETTE:
+  Dark primary color: #303F9F
+  Primary color: #3F51B5
+  Light primary color: #C5CAE9
+  Text/Icons: #FFFFFF
+  Accent color: #607D8B
+  Primary text: #212121
+  Secondary text: #757575
+  Divider Color: #BDBDBD
+*/
+
+body {
+  background-color: #BDBDBD;
+}
+
+.container {
+  padding-top: 10px;
+}
+
+.weatherCard {
+  margin: 0 auto;
+  min-height: 350px;
+  max-width: 40%;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-top {
+  background-color:#303F9F;
+  border-radius: 2px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  box-shadow: 0 4px 15px -4px gray;
+}
+
+.city-name {
+  display: inline-block;
+  padding-left: 10px;
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+
+.country-code {
+  display: inline-block;
+  color: #757575;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+.description {
+  margin-top: -10px;
+  color: #9E9E9E;
+}
+
+.icon {
+  margin: 0 auto;
+  max-height: 64px;
+  max-width: 64px;
+}
+
+.additional-info {
+  margin-top: 35px;
+  margin-left: 10px;
+}
