@@ -13,16 +13,16 @@
 	</head>
 	<body>
 		<div class="container" ng-app="weather">
-			<div class="weatherCard">
+			<div class="weatherCard" ng-controller="cardController">
 				<div class="card-top">
-					<h2 class="text-left text-capitalize city-name">Santo Domingo,</h2> <h2 class="text-right country-code"> DO</h2>
+					<h2 class="text-left text-capitalize city-name">{{weather.name}}, </h2> <h2 class="text-right country-code"> {{weather.country}}</h2>
 				</div>
-				<h1 class="text-center temperature">14°</h1>
-				<h3 class="text-center description">Sky is clear</h3>
+				<h1 class="text-center temperature">{{weather.temperature}}°</h1>
+				<h3 class="text-center description">{{weather.description}}</h3>
 				<img src="images/weather_icon.png" class="img-responsive icon"/>
 				<div class="additional-info">
-					<h4 class="text-left">Humidity: <span style="color:#616161">35%</span></h4>
-					<h4 class="text-left">Wind speed: <span style="color:#616161">0.96km/h</span></h4>
+					<h4 class="text-left">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
+					<h4 class="text-left">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
 				</div>
 			</div>
 		</div>
