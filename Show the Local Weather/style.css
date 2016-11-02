@@ -62,7 +62,30 @@ body {
   max-width: 64px;
 }
 
+.settings-icon {
+  height: 32px;
+  width: 32px;
+  margin-top: 15px;
+  cursor: pointer;
+  float: left;
+  float: right;
+  margin-right: 10px;
+}
+
+.settings-icon:active {
+  background-color: white;
+}
+
 .additional-info {
   margin-top: 35px;
   margin-left: 10px;
+}
+
+.temperature-settings {
+  text-align: right;
+}
+
+.temperature-settings button {
+  margin-bottom: 10px;
+  margin-right: 10px;
 }

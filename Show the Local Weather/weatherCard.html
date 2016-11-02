@@ -1,12 +1,19 @@
 <div class="weatherCard">
-				<div class="card-top">
-					<h2 class="text-left text-capitalize city-name">{{weather.name}}, </h2> <h2 class="text-right country-code"> {{weather.country}}</h2>
-				</div>
-				<h1 class="text-center temperature">{{weather.temperature}}°</h1>
-				<h3 class="text-center description">{{weather.description}}</h3>
-				<img ng-src="{{weather.icon}}" class="img-responsive icon"/>
-				<div class="additional-info">
-					<h4 class="text-left">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
-					<h4 class="text-left">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
-				</div>
-			</div>
+	<div class="card-top">
+		<h2 class="text-left text-capitalize city-name">{{weather.name}}, </h2>
+		<h2 class="text-right country-code"> {{weather.country}}</h2>
+    <img class="settings-icon" src='images/settings.png' width='120' height='70'
+        onmouseover="this.src='images/settings_black.png';" onmouseout="this.src='images/settings.png';" />
+	</div>
+	<h1 class="text-center temperature">{{weather.temp}}{{weather.scale}}</h1>
+	<h3 class="text-center description">{{weather.description}}</h3>
+	<img ng-src="{{weather.icon}}" class="img-responsive icon" />
+	<div class="additional-info">
+		<h4 class="text-left">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
+		<h4 class="text-left">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
+    <div class="temperature-settings">
+      <button ng-click="farenheitToCelsius()" class="btn btn-default" type="button">Celsius</button>
+      <button ng-click="celsiusToFarenheit()" class="btn btn-default" type="button">Farenheit</button>
+    </div>
+	</div>
+</div>
