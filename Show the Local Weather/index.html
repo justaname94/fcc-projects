@@ -13,18 +13,7 @@
 	</head>
 	<body>
 		<div class="container" ng-app="weather">
-			<div class="weatherCard" ng-controller="cardController">
-				<div class="card-top">
-					<h2 class="text-left text-capitalize city-name">{{weather.name}}, </h2> <h2 class="text-right country-code"> {{weather.country}}</h2>
-				</div>
-				<h1 class="text-center temperature">{{weather.temperature}}°</h1>
-				<h3 class="text-center description">{{weather.description}}</h3>
-				<img src="images/weather_icon.png" class="img-responsive icon"/>
-				<div class="additional-info">
-					<h4 class="text-left">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
-					<h4 class="text-left">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
-				</div>
-			</div>
+			<weather-card></weather-card>
 		</div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
