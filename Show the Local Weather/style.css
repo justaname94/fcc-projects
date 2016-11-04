@@ -90,3 +90,26 @@ body {
   margin-bottom: 10px;
   margin-right: 10px;
 }
+
+.btn:focus,.btn:active {
+   outline: none;
+}
+
+.weather-card-material {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.card-top-material {
+  background-color:#303F9F;
+}
+
+.country-code-material {
+  color: #757575;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+ .additional-info-material {
+   padding-left: 5px;
+}

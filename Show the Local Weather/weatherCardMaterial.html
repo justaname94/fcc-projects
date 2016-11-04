@@ -1,0 +1,16 @@
+<md-card md-theme-watch class="weather-card-material md-whiteframe-5dp">
+  <md-card-title class="card-top-material md-whiteframe-3dp">
+    <md-card-title-text layout="row">
+      <span class="md-headline text-capitalize city-name">{{weather.city}}</span>
+      <span class="country-code-material md-headline">{{weather.country}}</span>
+    </md-card-title-text>
+  </md-card-title>
+  <h1 class="text-center temperature md-display-1">{{weather.temp}}{{weather.scale}}</h1>
+  <h3 class="text-center description md-headline">{{weather.description}}</h3>
+  <img ng-src="{{weather.icon}}" class="img-responsive icon" />
+  <h4 class="text-left  additional-info-material">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
+		<h4 class="text-left  additional-info-material">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
+  <md-card-actions layout="row" layout-align="end center">
+    <md-button ng-click="switchBetweenCandF()">{{weather.scale_name}}</md-button>
+  </md-card-actions>
+</md-card>

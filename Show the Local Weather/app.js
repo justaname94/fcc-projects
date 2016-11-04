@@ -1,5 +1,5 @@
 (function() {
-  var app = angular.module('weather', []);
+  var app = angular.module('weather', ['ngMaterial']);
 
   app.service('weatherService', function($http) {
     var self = this;
@@ -59,10 +59,7 @@
   app.directive('weatherCard', function() {
     return {
       restrict: 'E',
-      templateUrl: 'weatherCard.html',
-
-      // controller: '',
-      // controllerAs: 'weather'
+      templateUrl: 'weatherCardMaterial.html',
     };
   });
 
