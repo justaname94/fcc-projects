@@ -20,6 +20,7 @@ body {
 
 .weatherCard {
   margin: 0 auto;
+  margin-bottom: 10px;
   min-height: 350px;
   max-width: 40%;
   background-color: #FFFFFF;

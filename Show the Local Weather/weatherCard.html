@@ -10,8 +10,7 @@
 		<h4 class="text-left">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
 		<h4 class="text-left">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
     <div class="temperature-settings">
-      <button ng-click="farenheitToCelsius()" class="btn btn-default" type="button">Celsius</button>
-      <button ng-click="celsiusToFarenheit()" class="btn btn-default" type="button">Farenheit</button>
+      <button ng-click="switchBetweenCandF()" class="btn btn-default" type="button" value="Celsius">{{weather.scale_name}}</button>
     </div>
 	</div>
 </div>
