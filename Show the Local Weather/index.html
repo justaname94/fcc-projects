@@ -15,7 +15,7 @@
 	<body>
 		<div class="container" ng-app="weather">
 			<div class="cards-container" ng-controller="weatherController">
-				<weather-card ng-repeat="weather in weathers"></weather-card>
+				<weather-card ng-repeat="weather in weathers track by $index"></weather-card>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>

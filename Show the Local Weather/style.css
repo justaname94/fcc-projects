@@ -98,6 +98,7 @@ body {
 .weather-card-material {
   margin: 0 auto;
   max-width: 500px;
+  margin-bottom: 15px;
 }
 
 .card-top-material {

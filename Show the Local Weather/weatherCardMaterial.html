@@ -11,6 +11,6 @@
   <h4 class="text-left  additional-info-material">Humidity: <span style="color:#616161">{{weather.humidity}}%</span></h4>
 		<h4 class="text-left  additional-info-material">Wind speed: <span style="color:#616161">{{weather.wind_speed}}m/s</span></h4>
   <md-card-actions layout="row" layout-align="end center">
-    <md-button ng-click="switchBetweenCandF()">{{weather.scale_name}}</md-button>
+    <md-button ng-click="switchBetweenCandF(weather)">{{weather.scale_name}}</md-button>
   </md-card-actions>
 </md-card>

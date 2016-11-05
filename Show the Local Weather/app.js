@@ -18,40 +18,44 @@
   });
 
   app.controller('weatherController', ['$scope', 'weatherService', function($scope, weatherService) {
-    $scope.weathers = [];
-    $scope.weather = {};
+    $scope.weathers = {};
+
     weatherService.getLocation().success(function(data) {
       var city = data.city + ',' + data.country;
-      $scope.weather.city = data.city;
-      $scope.weather.country = data.country;
+      loadWeatheFromCity(city);
+    });
 
+    function loadWeatheFromCity(city) {
       weatherService.getWeatherData(city).success(function(data) {
         ShowWeather(data);
       });
-    });
-
-    function ShowWeather(data) {
-      $scope.weather.temp = data.main.temp;
-      $scope.weather.icon = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
-      $scope.weather.description = data.weather[0].description;
-      $scope.weather.humidity = data.main.humidity;
-      $scope.weather.wind_speed = data.wind.speed;
-      $scope.weather.scale = '°C';
-      $scope.weather.scale_name = 'Farenheit';
-      $scope.weathers.push($scope.weather);
     }
 
-    $scope.switchBetweenCandF = function() {
-      if($scope.weather.scale === '°C') {
-        $scope.weather.scale = '°F';
-        $scope.weather.temp =
-            ((parseFloat($scope.weather.temp) * 9) / 5+32).toFixed(2);
-        $scope.weather.scale_name = 'Celsius';
+    function ShowWeather(data) {
+      var weather = {};
+      weather.city = data.name;
+      weather.country = data.sys.country;
+      weather.temp = data.main.temp;
+      weather.icon = 'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png';
+      weather.description = data.weather[0].description;
+      weather.humidity = data.main.humidity;
+      weather.wind_speed = data.wind.speed;
+      weather.scale = '°C';
+      weather.scale_name = 'Farenheit';
+      $scope.weathers[Date.now()] = weather;
+    }
+
+    $scope.switchBetweenCandF = function(weatherCard) {
+      if(weatherCard.scale === '°C') {
+        weatherCard.scale = '°F';
+        weatherCard.temp =
+            ((parseFloat(weatherCard.temp) * 9) / 5+32).toFixed(2);
+        weatherCard.scale_name = 'Celsius';
       } else {
-        $scope.weather.scale = '°C';
-        $scope.weather.temp =
-            ((parseFloat($scope.weather.temp) - 32) * 5/9).toFixed(2);
-        $scope.weather.scale_name = 'Farenheit';
+        weatherCard.scale = '°C';
+        weatherCard.temp =
+            ((parseFloat(weatherCard.temp) - 32) * 5/9).toFixed(2);
+        weatherCard.scale_name = 'Farenheit';
       }
     };
   }]);
