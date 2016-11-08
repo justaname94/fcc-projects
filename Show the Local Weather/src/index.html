@@ -16,7 +16,7 @@
 		<div class="container" ng-app="weather">
 			<div class="cards-container" ng-controller="weatherController">
 				<weather-card ng-repeat="weather in weathers track by $index"></weather-card>
-				<div ng-controller="AutoCompleteController" id="autocomplete">
+				<div ng-controller="AutoCompleteController as autoCtrl" id="autocomplete">
 					<autocomplete-bar></autocomplete-bar>
 				</div>
 			</div>

@@ -37,12 +37,12 @@
       });
     };
 
-    self.loadWeatheFromCity = function(city) {
+    self.loadWeatherFromCity = function(city) {
       self.getWeatherData(city).success(function(data) {
         $timeout(function() {
           self.showWeather(data);
         });
-      });
+        });
     };
 
   });
@@ -52,7 +52,7 @@
 
     weatherService.getLocation().success(function(data) {
       var city = data.city + ',' + data.country;
-      weatherService.loadWeatheFromCity(city);
+      weatherService.loadWeatherFromCity(city);
     });
 
     $scope.switchBetweenCandF = function(weatherCard) {
@@ -74,9 +74,27 @@
   function($http, $scope, weatherService) {
     self = this;
 
+    self.addCity = function(data) {
+      if(data) {
+        city = data.city + ',' + data.country;
+        weatherService.loadWeatherFromCity(city);
+      }
+    };
+
+    self.querySearch = function(query) {
+      return loadAll().then(function(response) {
+        var filteredSearch = response.data.filter(filterByCity,query)
+        return filteredSearch;
+      });
+    };
+
     // Internal Methods
     function loadAll() {
-      return $http.get('http://api.myjson.com/bins/3mhlk');
+      return $http.get('http://api.myjson.com/bins/4xor0');
+    }
+
+    function filterByCity(cities) {
+      return cities.display.indexOf(this) > -1;
     }
 
   }]);

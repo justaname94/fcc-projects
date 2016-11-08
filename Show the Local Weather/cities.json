@@ -1,890 +1,1710 @@
 [
   {
-    "city": "Kathmandu",
-    "country": "NP"
+    "display": "Dhaka",
+    "value": {
+      "country": "BD",
+      "city": "Dhaka"
+    }
   },
   {
-    "city": "Lisbon",
-    "country": "PT"
+    "display": "Brussels",
+    "value": {
+      "country": "BE",
+      "city": "Brussels"
+    }
   },
   {
-    "city": "Helsinki",
-    "country": "FI"
+    "display": "Ouagadougou",
+    "value": {
+      "country": "BF",
+      "city": "Ouagadougou"
+    }
   },
   {
-    "city": "Gustavia",
-    "country": "BL"
+    "display": "Sofia",
+    "value": {
+      "country": "BG",
+      "city": "Sofia"
+    }
   },
   {
-    "city": "Washington",
-    "country": "US"
+    "display": "Sarajevo",
+    "value": {
+      "country": "BA",
+      "city": "Sarajevo"
+    }
   },
   {
-    "city": "Grytviken",
-    "country": "GS"
+    "display": "Bridgetown",
+    "value": {
+      "country": "BB",
+      "city": "Bridgetown"
+    }
   },
   {
-    "city": "Paris",
-    "country": "FR"
+    "display": "Mata Utu",
+    "value": {
+      "country": "WF",
+      "city": "Mata Utu"
+    }
   },
   {
-    "city": "London",
-    "country": "GB"
+    "display": "Gustavia",
+    "value": {
+      "country": "BL",
+      "city": "Gustavia"
+    }
   },
   {
-    "city": "Pristina",
-    "country": "XK"
+    "display": "Hamilton",
+    "value": {
+      "country": "BM",
+      "city": "Hamilton"
+    }
   },
   {
-    "city": "Tallinn",
-    "country": "EE"
+    "display": "Bandar Seri Begawan",
+    "value": {
+      "country": "BN",
+      "city": "Bandar Seri Begawan"
+    }
   },
   {
-    "city": "Riga",
-    "country": "LV"
+    "display": "Sucre",
+    "value": {
+      "country": "BO",
+      "city": "Sucre"
+    }
   },
   {
-    "city": "Bangkok",
-    "country": "TH"
+    "display": "Manama",
+    "value": {
+      "country": "BH",
+      "city": "Manama"
+    }
   },
   {
-    "city": "Sanaa",
-    "country": "YE"
+    "display": "Bujumbura",
+    "value": {
+      "country": "BI",
+      "city": "Bujumbura"
+    }
   },
   {
-    "city": "Algiers",
-    "country": "DZ"
+    "display": "Porto-Novo",
+    "value": {
+      "country": "BJ",
+      "city": "Porto-Novo"
+    }
   },
   {
-    "city": "Mogadishu",
-    "country": "SO"
+    "display": "Thimphu",
+    "value": {
+      "country": "BT",
+      "city": "Thimphu"
+    }
   },
   {
-    "city": "Tirana",
-    "country": "AL"
+    "display": "Kingston",
+    "value": {
+      "country": "JM",
+      "city": "Kingston"
+    }
   },
   {
-    "city": "Saint-Pierre",
-    "country": "PM"
+    "display": "Gaborone",
+    "value": {
+      "country": "BW",
+      "city": "Gaborone"
+    }
   },
   {
-    "city": "Basse-Terre",
-    "country": "GP"
+    "display": "Apia",
+    "value": {
+      "country": "WS",
+      "city": "Apia"
+    }
   },
   {
-    "city": "Vaduz",
-    "country": "LI"
+    "display": "Brasilia",
+    "value": {
+      "country": "BR",
+      "city": "Brasilia"
+    }
   },
   {
-    "city": "Tarawa",
-    "country": "KI"
+    "display": "Nassau",
+    "value": {
+      "country": "BS",
+      "city": "Nassau"
+    }
   },
   {
-    "city": "West Island",
-    "country": "CC"
+    "display": "Saint Helier",
+    "value": {
+      "country": "JE",
+      "city": "Saint Helier"
+    }
   },
   {
-    "city": "Sucre",
-    "country": "BO"
+    "display": "Minsk",
+    "value": {
+      "country": "BY",
+      "city": "Minsk"
+    }
   },
   {
-    "city": "Rabat",
-    "country": "MA"
+    "display": "Belmopan",
+    "value": {
+      "country": "BZ",
+      "city": "Belmopan"
+    }
   },
   {
-    "city": "Fort-de-France",
-    "country": "MQ"
+    "display": "Moscow",
+    "value": {
+      "country": "RU",
+      "city": "Moscow"
+    }
   },
   {
-    "city": "Melekeok",
-    "country": "PW"
+    "display": "Kigali",
+    "value": {
+      "country": "RW",
+      "city": "Kigali"
+    }
   },
   {
-    "city": "Asuncion",
-    "country": "PY"
+    "display": "Belgrade",
+    "value": {
+      "country": "RS",
+      "city": "Belgrade"
+    }
   },
   {
-    "city": "Saint-Denis",
-    "country": "RE"
+    "display": "Dili",
+    "value": {
+      "country": "TL",
+      "city": "Dili"
+    }
   },
   {
-    "city": "Kingstown",
-    "country": "VC"
+    "display": "Saint-Denis",
+    "value": {
+      "country": "RE",
+      "city": "Saint-Denis"
+    }
   },
   {
-    "city": "Zagreb",
-    "country": "HR"
+    "display": "Ashgabat",
+    "value": {
+      "country": "TM",
+      "city": "Ashgabat"
+    }
   },
   {
-    "city": "Amsterdam",
-    "country": "NL"
+    "display": "Dushanbe",
+    "value": {
+      "country": "TJ",
+      "city": "Dushanbe"
+    }
   },
   {
-    "city": "Moscow",
-    "country": "RU"
+    "display": "Bucharest",
+    "value": {
+      "country": "RO",
+      "city": "Bucharest"
+    }
   },
   {
-    "city": "Kiev",
-    "country": "UA"
+    "display": "Bissau",
+    "value": {
+      "country": "GW",
+      "city": "Bissau"
+    }
   },
   {
-    "city": "Gibraltar",
-    "country": "GI"
+    "display": "Hagatna",
+    "value": {
+      "country": "GU",
+      "city": "Hagatna"
+    }
   },
   {
-    "city": "Havana",
-    "country": "CU"
+    "display": "Guatemala City",
+    "value": {
+      "country": "GT",
+      "city": "Guatemala City"
+    }
   },
   {
-    "city": "Montevideo",
-    "country": "UY"
+    "display": "Grytviken",
+    "value": {
+      "country": "GS",
+      "city": "Grytviken"
+    }
   },
   {
-    "city": "Caracas",
-    "country": "VE"
+    "display": "Athens",
+    "value": {
+      "country": "GR",
+      "city": "Athens"
+    }
   },
   {
-    "city": "Maputo",
-    "country": "MZ"
+    "display": "Malabo",
+    "value": {
+      "country": "GQ",
+      "city": "Malabo"
+    }
   },
   {
-    "city": "Praia",
-    "country": "CV"
+    "display": "Basse-Terre",
+    "value": {
+      "country": "GP",
+      "city": "Basse-Terre"
+    }
   },
   {
-    "city": "Kigali",
-    "country": "RW"
+    "display": "Tokyo",
+    "value": {
+      "country": "JP",
+      "city": "Tokyo"
+    }
   },
   {
-    "city": "Freetown",
-    "country": "SL"
+    "display": "Georgetown",
+    "value": {
+      "country": "GY",
+      "city": "Georgetown"
+    }
   },
   {
-    "city": "Monrovia",
-    "country": "LR"
+    "display": "St Peter Port",
+    "value": {
+      "country": "GG",
+      "city": "St Peter Port"
+    }
   },
   {
-    "city": "Colombo",
-    "country": "LK"
+    "display": "Cayenne",
+    "value": {
+      "country": "GF",
+      "city": "Cayenne"
+    }
   },
   {
-    "city": "Monaco",
-    "country": "MC"
+    "display": "Tbilisi",
+    "value": {
+      "country": "GE",
+      "city": "Tbilisi"
+    }
   },
   {
-    "city": "Port-au-Prince",
-    "country": "HT"
+    "display": "St. George's",
+    "value": {
+      "country": "GD",
+      "city": "St. George's"
+    }
   },
   {
-    "city": "Bujumbura",
-    "country": "BI"
+    "display": "London",
+    "value": {
+      "country": "GB",
+      "city": "London"
+    }
   },
   {
-    "city": "Ashgabat",
-    "country": "TM"
+    "display": "Libreville",
+    "value": {
+      "country": "GA",
+      "city": "Libreville"
+    }
   },
   {
-    "city": "Bishkek",
-    "country": "KG"
+    "display": "San Salvador",
+    "value": {
+      "country": "SV",
+      "city": "San Salvador"
+    }
   },
   {
-    "city": "Torshavn",
-    "country": "FO"
+    "display": "Conakry",
+    "value": {
+      "country": "GN",
+      "city": "Conakry"
+    }
   },
   {
-    "city": "Nuuk",
-    "country": "GL"
+    "display": "Banjul",
+    "value": {
+      "country": "GM",
+      "city": "Banjul"
+    }
   },
   {
-    "city": "Papeete",
-    "country": "PF"
+    "display": "Nuuk",
+    "value": {
+      "country": "GL",
+      "city": "Nuuk"
+    }
   },
   {
-    "city": "Cayenne",
-    "country": "GF"
+    "display": "Gibraltar",
+    "value": {
+      "country": "GI",
+      "city": "Gibraltar"
+    }
   },
   {
-    "city": "Mamoudzou",
-    "country": "YT"
+    "display": "Accra",
+    "value": {
+      "country": "GH",
+      "city": "Accra"
+    }
   },
   {
-    "city": "Pyongyang",
-    "country": "KP"
+    "display": "Muscat",
+    "value": {
+      "country": "OM",
+      "city": "Muscat"
+    }
   },
   {
-    "city": "Alofi",
-    "country": "NU"
+    "display": "Tunis",
+    "value": {
+      "country": "TN",
+      "city": "Tunis"
+    }
   },
   {
-    "city": "Mariehamn",
-    "country": "AX"
+    "display": "Amman",
+    "value": {
+      "country": "JO",
+      "city": "Amman"
+    }
   },
   {
-    "city": "Hamilton",
-    "country": "BM"
+    "display": "Zagreb",
+    "value": {
+      "country": "HR",
+      "city": "Zagreb"
+    }
   },
   {
-    "city": "Marigot",
-    "country": "MF"
+    "display": "Port-au-Prince",
+    "value": {
+      "country": "HT",
+      "city": "Port-au-Prince"
+    }
   },
   {
-    "city": "Kuala Lumpur",
-    "country": "MY"
+    "display": "Budapest",
+    "value": {
+      "country": "HU",
+      "city": "Budapest"
+    }
   },
   {
-    "city": "Adamstown",
-    "country": "PN"
+    "display": "Hong Kong",
+    "value": {
+      "country": "HK",
+      "city": "Hong Kong"
+    }
   },
   {
-    "city": "San Juan",
-    "country": "PR"
+    "display": "Tegucigalpa",
+    "value": {
+      "country": "HN",
+      "city": "Tegucigalpa"
+    }
   },
   {
-    "city": "Dushanbe",
-    "country": "TJ"
+    "display": "Caracas",
+    "value": {
+      "country": "VE",
+      "city": "Caracas"
+    }
   },
   {
-    "city": "Ankara",
-    "country": "TR"
+    "display": "San Juan",
+    "value": {
+      "country": "PR",
+      "city": "San Juan"
+    }
   },
   {
-    "city": "Funafuti",
-    "country": "TV"
+    "display": "East Jerusalem",
+    "value": {
+      "country": "PS",
+      "city": "East Jerusalem"
+    }
   },
   {
-    "city": "Vatican City",
-    "country": "VA"
+    "display": "Melekeok",
+    "value": {
+      "country": "PW",
+      "city": "Melekeok"
+    }
   },
   {
-    "city": "Apia",
-    "country": "WS"
+    "display": "Lisbon",
+    "value": {
+      "country": "PT",
+      "city": "Lisbon"
+    }
   },
   {
-    "city": "New Delhi",
-    "country": "IN"
+    "display": "Longyearbyen",
+    "value": {
+      "country": "SJ",
+      "city": "Longyearbyen"
+    }
   },
   {
-    "city": "Minsk",
-    "country": "BY"
+    "display": "Asuncion",
+    "value": {
+      "country": "PY",
+      "city": "Asuncion"
+    }
   },
   {
-    "city": "Doha",
-    "country": "QA"
+    "display": "Baghdad",
+    "value": {
+      "country": "IQ",
+      "city": "Baghdad"
+    }
   },
   {
-    "city": "Nicosia",
-    "country": "CY"
+    "display": "Panama City",
+    "value": {
+      "country": "PA",
+      "city": "Panama City"
+    }
   },
   {
-    "city": "Madrid",
-    "country": "ES"
+    "display": "Papeete",
+    "value": {
+      "country": "PF",
+      "city": "Papeete"
+    }
   },
   {
-    "city": "Vienna",
-    "country": "AT"
+    "display": "Port Moresby",
+    "value": {
+      "country": "PG",
+      "city": "Port Moresby"
+    }
   },
   {
-    "city": "Prague",
-    "country": "CZ"
+    "display": "Lima",
+    "value": {
+      "country": "PE",
+      "city": "Lima"
+    }
   },
   {
-    "city": "Berlin",
-    "country": "DE"
+    "display": "Islamabad",
+    "value": {
+      "country": "PK",
+      "city": "Islamabad"
+    }
   },
   {
-    "city": "Reykjavik",
-    "country": "IS"
+    "display": "Manila",
+    "value": {
+      "country": "PH",
+      "city": "Manila"
+    }
   },
   {
-    "city": "Brasilia",
-    "country": "BR"
+    "display": "Adamstown",
+    "value": {
+      "country": "PN",
+      "city": "Adamstown"
+    }
   },
   {
-    "city": "Yaounde",
-    "country": "CM"
+    "display": "Warsaw",
+    "value": {
+      "country": "PL",
+      "city": "Warsaw"
+    }
   },
   {
-    "city": "Mexico City",
-    "country": "MX"
+    "display": "Saint-Pierre",
+    "value": {
+      "country": "PM",
+      "city": "Saint-Pierre"
+    }
   },
   {
-    "city": "Abu Dhabi",
-    "country": "AE"
+    "display": "Lusaka",
+    "value": {
+      "country": "ZM",
+      "city": "Lusaka"
+    }
   },
   {
-    "city": "Riyadh",
-    "country": "SA"
+    "display": "El-Aaiun",
+    "value": {
+      "country": "EH",
+      "city": "El-Aaiun"
+    }
   },
   {
-    "city": "Tokyo",
-    "country": "JP"
+    "display": "Tallinn",
+    "value": {
+      "country": "EE",
+      "city": "Tallinn"
+    }
   },
   {
-    "city": "Stockholm",
-    "country": "SE"
+    "display": "Cairo",
+    "value": {
+      "country": "EG",
+      "city": "Cairo"
+    }
   },
   {
-    "city": "The Valley",
-    "country": "AI"
+    "display": "Pretoria",
+    "value": {
+      "country": "ZA",
+      "city": "Pretoria"
+    }
   },
   {
-    "city": "Wellington",
-    "country": "NZ"
+    "display": "Quito",
+    "value": {
+      "country": "EC",
+      "city": "Quito"
+    }
   },
   {
-    "city": "Nassau",
-    "country": "BS"
+    "display": "Rome",
+    "value": {
+      "country": "IT",
+      "city": "Rome"
+    }
   },
   {
-    "city": "Bogota",
-    "country": "CO"
+    "display": "Hanoi",
+    "value": {
+      "country": "VN",
+      "city": "Hanoi"
+    }
   },
   {
-    "city": "Belmopan",
-    "country": "BZ"
+    "display": "Honiara",
+    "value": {
+      "country": "SB",
+      "city": "Honiara"
+    }
   },
   {
-    "city": "George Town",
-    "country": "KY"
+    "display": "Addis Ababa",
+    "value": {
+      "country": "ET",
+      "city": "Addis Ababa"
+    }
   },
   {
-    "city": "Oslo",
-    "country": "NO"
+    "display": "Mogadishu",
+    "value": {
+      "country": "SO",
+      "city": "Mogadishu"
+    }
   },
   {
-    "city": "Bucharest",
-    "country": "RO"
+    "display": "Harare",
+    "value": {
+      "country": "ZW",
+      "city": "Harare"
+    }
   },
   {
-    "city": "Taipei",
-    "country": "TW"
+    "display": "Riyadh",
+    "value": {
+      "country": "SA",
+      "city": "Riyadh"
+    }
   },
   {
-    "city": "San Salvador",
-    "country": "SV"
+    "display": "Madrid",
+    "value": {
+      "country": "ES",
+      "city": "Madrid"
+    }
   },
   {
-    "city": "Gaborone",
-    "country": "BW"
+    "display": "Asmara",
+    "value": {
+      "country": "ER",
+      "city": "Asmara"
+    }
   },
   {
-    "city": "Niamey",
-    "country": "NE"
+    "display": "Podgorica",
+    "value": {
+      "country": "ME",
+      "city": "Podgorica"
+    }
   },
   {
-    "city": "Accra",
-    "country": "GH"
+    "display": "Chisinau",
+    "value": {
+      "country": "MD",
+      "city": "Chisinau"
+    }
   },
   {
-    "city": "Tunis",
-    "country": "TN"
+    "display": "Antananarivo",
+    "value": {
+      "country": "MG",
+      "city": "Antananarivo"
+    }
   },
   {
-    "city": "Nairobi",
-    "country": "KE"
+    "display": "Marigot",
+    "value": {
+      "country": "MF",
+      "city": "Marigot"
+    }
   },
   {
-    "city": "Dakar",
-    "country": "SN"
+    "display": "Rabat",
+    "value": {
+      "country": "MA",
+      "city": "Rabat"
+    }
   },
   {
-    "city": "Harare",
-    "country": "ZW"
+    "display": "Monaco",
+    "value": {
+      "country": "MC",
+      "city": "Monaco"
+    }
   },
   {
-    "city": "Windhoek",
-    "country": "NA"
+    "display": "Tashkent",
+    "value": {
+      "country": "UZ",
+      "city": "Tashkent"
+    }
   },
   {
-    "city": "Lusaka",
-    "country": "ZM"
+    "display": "Nay Pyi Taw",
+    "value": {
+      "country": "MM",
+      "city": "Nay Pyi Taw"
+    }
   },
   {
-    "city": "Mbabane",
-    "country": "SZ"
+    "display": "Bamako",
+    "value": {
+      "country": "ML",
+      "city": "Bamako"
+    }
   },
   {
-    "city": "Bamako",
-    "country": "ML"
+    "display": "Macao",
+    "value": {
+      "country": "MO",
+      "city": "Macao"
+    }
   },
   {
-    "city": "Luanda",
-    "country": "AO"
+    "display": "Ulan Bator",
+    "value": {
+      "country": "MN",
+      "city": "Ulan Bator"
+    }
   },
   {
-    "city": "Port Louis",
-    "country": "MU"
+    "display": "Majuro",
+    "value": {
+      "country": "MH",
+      "city": "Majuro"
+    }
   },
   {
-    "city": "Ouagadougou",
-    "country": "BF"
+    "display": "Skopje",
+    "value": {
+      "country": "MK",
+      "city": "Skopje"
+    }
   },
   {
-    "city": "Maseru",
-    "country": "LS"
+    "display": "Port Louis",
+    "value": {
+      "country": "MU",
+      "city": "Port Louis"
+    }
   },
   {
-    "city": "Nouakchott",
-    "country": "MR"
+    "display": "Valletta",
+    "value": {
+      "country": "MT",
+      "city": "Valletta"
+    }
   },
   {
-    "city": "Ottawa",
-    "country": "CA"
+    "display": "Lilongwe",
+    "value": {
+      "country": "MW",
+      "city": "Lilongwe"
+    }
   },
   {
-    "city": "Port-aux-Francais",
-    "country": "TF"
+    "display": "Male",
+    "value": {
+      "country": "MV",
+      "city": "Male"
+    }
   },
   {
-    "city": "Hong Kong",
-    "country": "HK"
+    "display": "Fort-de-France",
+    "value": {
+      "country": "MQ",
+      "city": "Fort-de-France"
+    }
   },
   {
-    "city": "Astana",
-    "country": "KZ"
+    "display": "Saipan",
+    "value": {
+      "country": "MP",
+      "city": "Saipan"
+    }
   },
   {
-    "city": "Copenhagen",
-    "country": "DK"
+    "display": "Plymouth",
+    "value": {
+      "country": "MS",
+      "city": "Plymouth"
+    }
   },
   {
-    "city": "Tehran",
-    "country": "IR"
+    "display": "Nouakchott",
+    "value": {
+      "country": "MR",
+      "city": "Nouakchott"
+    }
   },
   {
-    "city": "Buenos Aires",
-    "country": "AR"
+    "display": "Douglas , Isle of Man",
+    "value": {
+      "country": "IM",
+      "city": "Douglas , Isle of Man"
+    }
   },
   {
-    "city": "Manila",
-    "country": "PH"
+    "display": "Kampala",
+    "value": {
+      "country": "UG",
+      "city": "Kampala"
+    }
   },
   {
-    "city": "Phnom Penh",
-    "country": "KH"
+    "display": "Dodoma",
+    "value": {
+      "country": "TZ",
+      "city": "Dodoma"
+    }
   },
   {
-    "city": "Port Moresby",
-    "country": "PG"
+    "display": "Kuala Lumpur",
+    "value": {
+      "country": "MY",
+      "city": "Kuala Lumpur"
+    }
   },
   {
-    "city": "Male",
-    "country": "MV"
+    "display": "Mexico City",
+    "value": {
+      "country": "MX",
+      "city": "Mexico City"
+    }
   },
   {
-    "city": "Kabul",
-    "country": "AF"
+    "display": "Jerusalem",
+    "value": {
+      "country": "IL",
+      "city": "Jerusalem"
+    }
   },
   {
-    "city": "Dublin",
-    "country": "IE"
+    "display": "Paris",
+    "value": {
+      "country": "FR",
+      "city": "Paris"
+    }
   },
   {
-    "city": "Brussels",
-    "country": "BE"
+    "display": "Diego Garcia",
+    "value": {
+      "country": "IO",
+      "city": "Diego Garcia"
+    }
   },
   {
-    "city": "Pretoria",
-    "country": "ZA"
+    "display": "Jamestown",
+    "value": {
+      "country": "SH",
+      "city": "Jamestown"
+    }
   },
   {
-    "city": "Dodoma",
-    "country": "TZ"
+    "display": "Helsinki",
+    "value": {
+      "country": "FI",
+      "city": "Helsinki"
+    }
   },
   {
-    "city": "Juba",
-    "country": "SS"
+    "display": "Suva",
+    "value": {
+      "country": "FJ",
+      "city": "Suva"
+    }
   },
   {
-    "city": "Porto-Novo",
-    "country": "BJ"
+    "display": "Stanley",
+    "value": {
+      "country": "FK",
+      "city": "Stanley"
+    }
   },
   {
-    "city": "Brazzaville",
-    "country": "CG"
+    "display": "Palikir",
+    "value": {
+      "country": "FM",
+      "city": "Palikir"
+    }
   },
   {
-    "city": "Kinshasa",
-    "country": "CD"
+    "display": "Torshavn",
+    "value": {
+      "country": "FO",
+      "city": "Torshavn"
+    }
   },
   {
-    "city": "Victoria",
-    "country": "SC"
+    "display": "Managua",
+    "value": {
+      "country": "NI",
+      "city": "Managua"
+    }
   },
   {
-    "city": "Warsaw",
-    "country": "PL"
+    "display": "Amsterdam",
+    "value": {
+      "country": "NL",
+      "city": "Amsterdam"
+    }
   },
   {
-    "city": "Budapest",
-    "country": "HU"
+    "display": "Oslo",
+    "value": {
+      "country": "NO",
+      "city": "Oslo"
+    }
   },
   {
-    "city": "Bratislava",
-    "country": "SK"
+    "display": "Windhoek",
+    "value": {
+      "country": "NA",
+      "city": "Windhoek"
+    }
   },
   {
-    "city": "Sofia",
-    "country": "BG"
+    "display": "Port Vila",
+    "value": {
+      "country": "VU",
+      "city": "Port Vila"
+    }
   },
   {
-    "city": "Muscat",
-    "country": "OM"
+    "display": "Noumea",
+    "value": {
+      "country": "NC",
+      "city": "Noumea"
+    }
   },
   {
-    "city": "Yerevan",
-    "country": "AM"
+    "display": "Niamey",
+    "value": {
+      "country": "NE",
+      "city": "Niamey"
+    }
   },
   {
-    "city": "Ljubljana",
-    "country": "SI"
+    "display": "Kingston",
+    "value": {
+      "country": "NF",
+      "city": "Kingston"
+    }
   },
   {
-    "city": "Podgorica",
-    "country": "ME"
+    "display": "Abuja",
+    "value": {
+      "country": "NG",
+      "city": "Abuja"
+    }
   },
   {
-    "city": "Baghdad",
-    "country": "IQ"
+    "display": "Wellington",
+    "value": {
+      "country": "NZ",
+      "city": "Wellington"
+    }
   },
   {
-    "city": "Chisinau",
-    "country": "MD"
+    "display": "Kathmandu",
+    "value": {
+      "country": "NP",
+      "city": "Kathmandu"
+    }
   },
   {
-    "city": "Kuwait City",
-    "country": "KW"
+    "display": "Yaren",
+    "value": {
+      "country": "NR",
+      "city": "Yaren"
+    }
   },
   {
-    "city": "Vilnius",
-    "country": "LT"
+    "display": "Alofi",
+    "value": {
+      "country": "NU",
+      "city": "Alofi"
+    }
   },
   {
-    "city": "Luxembourg",
-    "country": "LU"
+    "display": "Avarua",
+    "value": {
+      "country": "CK",
+      "city": "Avarua"
+    }
   },
   {
-    "city": "Skopje",
-    "country": "MK"
+    "display": "Pristina",
+    "value": {
+      "country": "XK",
+      "city": "Pristina"
+    }
   },
   {
-    "city": "Valletta",
-    "country": "MT"
+    "display": "Yamoussoukro",
+    "value": {
+      "country": "CI",
+      "city": "Yamoussoukro"
+    }
   },
   {
-    "city": "Stanley",
-    "country": "FK"
+    "display": "Berne",
+    "value": {
+      "country": "CH",
+      "city": "Berne"
+    }
   },
   {
-    "city": "Manama",
-    "country": "BH"
+    "display": "Bogota",
+    "value": {
+      "country": "CO",
+      "city": "Bogota"
+    }
   },
   {
-    "city": "Baku",
-    "country": "AZ"
+    "display": "Beijing",
+    "value": {
+      "country": "CN",
+      "city": "Beijing"
+    }
   },
   {
-    "city": "Kingston",
-    "country": "JM"
+    "display": "Yaounde",
+    "value": {
+      "country": "CM",
+      "city": "Yaounde"
+    }
   },
   {
-    "city": "Quito",
-    "country": "EC"
+    "display": "Santiago",
+    "value": {
+      "country": "CL",
+      "city": "Santiago"
+    }
   },
   {
-    "city": "Lima",
-    "country": "PE"
+    "display": "West Island",
+    "value": {
+      "country": "CC",
+      "city": "West Island"
+    }
   },
   {
-    "city": "Road Town",
-    "country": "VG"
+    "display": "Ottawa",
+    "value": {
+      "country": "CA",
+      "city": "Ottawa"
+    }
   },
   {
-    "city": "Managua",
-    "country": "NI"
+    "display": "Brazzaville",
+    "value": {
+      "country": "CG",
+      "city": "Brazzaville"
+    }
   },
   {
-    "city": "Santo Domingo",
-    "country": "DO"
+    "display": "Bangui",
+    "value": {
+      "country": "CF",
+      "city": "Bangui"
+    }
   },
   {
-    "city": "Guatemala City",
-    "country": "GT"
+    "display": "Kinshasa",
+    "value": {
+      "country": "CD",
+      "city": "Kinshasa"
+    }
   },
   {
-    "city": "San Jose",
-    "country": "CR"
+    "display": "Prague",
+    "value": {
+      "country": "CZ",
+      "city": "Prague"
+    }
   },
   {
-    "city": "Bridgetown",
-    "country": "BB"
+    "display": "Nicosia",
+    "value": {
+      "country": "CY",
+      "city": "Nicosia"
+    }
   },
   {
-    "city": "Avarua",
-    "country": "CK"
+    "display": "Flying Fish Cove",
+    "value": {
+      "country": "CX",
+      "city": "Flying Fish Cove"
+    }
   },
   {
-    "city": "Amman",
-    "country": "JO"
+    "display": "San Jose",
+    "value": {
+      "country": "CR",
+      "city": "San Jose"
+    }
   },
   {
-    "city": "Cockburn Town",
-    "country": "TC"
+    "display": " Willemstad",
+    "value": {
+      "country": "CW",
+      "city": " Willemstad"
+    }
   },
   {
-    "city": "Castries",
-    "country": "LC"
+    "display": "Praia",
+    "value": {
+      "country": "CV",
+      "city": "Praia"
+    }
   },
   {
-    "city": "Georgetown",
-    "country": "GY"
+    "display": "Havana",
+    "value": {
+      "country": "CU",
+      "city": "Havana"
+    }
   },
   {
-    "city": "Saint Helier",
-    "country": "JE"
+    "display": "Mbabane",
+    "value": {
+      "country": "SZ",
+      "city": "Mbabane"
+    }
   },
   {
-    "city": "Sao Tome",
-    "country": "ST"
+    "display": "Damascus",
+    "value": {
+      "country": "SY",
+      "city": "Damascus"
+    }
   },
   {
-    "city": "Yamoussoukro",
-    "country": "CI"
+    "display": "Philipsburg",
+    "value": {
+      "country": "SX",
+      "city": "Philipsburg"
+    }
   },
   {
-    "city": "Vientiane",
-    "country": "LA"
+    "display": "Bishkek",
+    "value": {
+      "country": "KG",
+      "city": "Bishkek"
+    }
   },
   {
-    "city": "Yaren",
-    "country": "NR"
+    "display": "Nairobi",
+    "value": {
+      "country": "KE",
+      "city": "Nairobi"
+    }
   },
   {
-    "city": "Kingston",
-    "country": "NF"
+    "display": "Juba",
+    "value": {
+      "country": "SS",
+      "city": "Juba"
+    }
   },
   {
-    "city": "Bissau",
-    "country": "GW"
+    "display": "Paramaribo",
+    "value": {
+      "country": "SR",
+      "city": "Paramaribo"
+    }
   },
   {
-    "city": "Andorra la Vella",
-    "country": "AD"
+    "display": "Tarawa",
+    "value": {
+      "country": "KI",
+      "city": "Tarawa"
+    }
   },
   {
-    "city": "Pago Pago",
-    "country": "AS"
+    "display": "Phnom Penh",
+    "value": {
+      "country": "KH",
+      "city": "Phnom Penh"
+    }
   },
   {
-    "city": "Canberra",
-    "country": "AU"
+    "display": "Basseterre",
+    "value": {
+      "country": "KN",
+      "city": "Basseterre"
+    }
   },
   {
-    "city": "Oranjestad",
-    "country": "AW"
+    "display": "Moroni",
+    "value": {
+      "country": "KM",
+      "city": "Moroni"
+    }
   },
   {
-    "city": "Sarajevo",
-    "country": "BA"
+    "display": "Sao Tome",
+    "value": {
+      "country": "ST",
+      "city": "Sao Tome"
+    }
   },
   {
-    "city": "Dhaka",
-    "country": "BD"
+    "display": "Bratislava",
+    "value": {
+      "country": "SK",
+      "city": "Bratislava"
+    }
   },
   {
-    "city": "Bandar Seri Begawan",
-    "country": "BN"
+    "display": "Seoul",
+    "value": {
+      "country": "KR",
+      "city": "Seoul"
+    }
   },
   {
-    "city": "Thimphu",
-    "country": "BT"
+    "display": "Ljubljana",
+    "value": {
+      "country": "SI",
+      "city": "Ljubljana"
+    }
   },
   {
-    "city": "Bangui",
-    "country": "CF"
+    "display": "Pyongyang",
+    "value": {
+      "country": "KP",
+      "city": "Pyongyang"
+    }
   },
   {
-    "city": "Santiago",
-    "country": "CL"
+    "display": "Kuwait City",
+    "value": {
+      "country": "KW",
+      "city": "Kuwait City"
+    }
   },
   {
-    "city": "Beijing",
-    "country": "CN"
+    "display": "Dakar",
+    "value": {
+      "country": "SN",
+      "city": "Dakar"
+    }
   },
   {
-    "city": "Flying Fish Cove",
-    "country": "CX"
+    "display": "San Marino",
+    "value": {
+      "country": "SM",
+      "city": "San Marino"
+    }
   },
   {
-    "city": "Djibouti",
-    "country": "DJ"
+    "display": "Freetown",
+    "value": {
+      "country": "SL",
+      "city": "Freetown"
+    }
   },
   {
-    "city": "Roseau",
-    "country": "DM"
+    "display": "Victoria",
+    "value": {
+      "country": "SC",
+      "city": "Victoria"
+    }
   },
   {
-    "city": "Cairo",
-    "country": "EG"
+    "display": "Astana",
+    "value": {
+      "country": "KZ",
+      "city": "Astana"
+    }
   },
   {
-    "city": "Addis Ababa",
-    "country": "ET"
+    "display": "George Town",
+    "value": {
+      "country": "KY",
+      "city": "George Town"
+    }
   },
   {
-    "city": "Suva",
-    "country": "FJ"
+    "display": "Singapur",
+    "value": {
+      "country": "SG",
+      "city": "Singapur"
+    }
   },
   {
-    "city": "Libreville",
-    "country": "GA"
+    "display": "Stockholm",
+    "value": {
+      "country": "SE",
+      "city": "Stockholm"
+    }
   },
   {
-    "city": "Tbilisi",
-    "country": "GE"
+    "display": "Khartoum",
+    "value": {
+      "country": "SD",
+      "city": "Khartoum"
+    }
   },
   {
-    "city": "Banjul",
-    "country": "GM"
+    "display": "Santo Domingo",
+    "value": {
+      "country": "DO",
+      "city": "Santo Domingo"
+    }
   },
   {
-    "city": "Conakry",
-    "country": "GN"
+    "display": "Roseau",
+    "value": {
+      "country": "DM",
+      "city": "Roseau"
+    }
   },
   {
-    "city": "Malabo",
-    "country": "GQ"
+    "display": "Djibouti",
+    "value": {
+      "country": "DJ",
+      "city": "Djibouti"
+    }
   },
   {
-    "city": "Athens",
-    "country": "GR"
+    "display": "Copenhagen",
+    "value": {
+      "country": "DK",
+      "city": "Copenhagen"
+    }
   },
   {
-    "city": "Hagatna",
-    "country": "GU"
+    "display": "Road Town",
+    "value": {
+      "country": "VG",
+      "city": "Road Town"
+    }
   },
   {
-    "city": "Tegucigalpa",
-    "country": "HN"
+    "display": "Berlin",
+    "value": {
+      "country": "DE",
+      "city": "Berlin"
+    }
   },
   {
-    "city": "Jakarta",
-    "country": "ID"
+    "display": "Sanaa",
+    "value": {
+      "country": "YE",
+      "city": "Sanaa"
+    }
   },
   {
-    "city": "Jerusalem",
-    "country": "IL"
+    "display": "Algiers",
+    "value": {
+      "country": "DZ",
+      "city": "Algiers"
+    }
   },
   {
-    "city": "Moroni",
-    "country": "KM"
+    "display": "Washington",
+    "value": {
+      "country": "US",
+      "city": "Washington"
+    }
   },
   {
-    "city": "Basseterre",
-    "country": "KN"
+    "display": "Montevideo",
+    "value": {
+      "country": "UY",
+      "city": "Montevideo"
+    }
   },
   {
-    "city": "Seoul",
-    "country": "KR"
+    "display": "Mamoudzou",
+    "value": {
+      "country": "YT",
+      "city": "Mamoudzou"
+    }
   },
   {
-    "city": "Beirut",
-    "country": "LB"
+    "display": "Beirut",
+    "value": {
+      "country": "LB",
+      "city": "Beirut"
+    }
   },
   {
-    "city": "Antananarivo",
-    "country": "MG"
+    "display": "Castries",
+    "value": {
+      "country": "LC",
+      "city": "Castries"
+    }
   },
   {
-    "city": "Majuro",
-    "country": "MH"
+    "display": "Vientiane",
+    "value": {
+      "country": "LA",
+      "city": "Vientiane"
+    }
   },
   {
-    "city": "Nay Pyi Taw",
-    "country": "MM"
+    "display": "Funafuti",
+    "value": {
+      "country": "TV",
+      "city": "Funafuti"
+    }
   },
   {
-    "city": "Saipan",
-    "country": "MP"
+    "display": "Taipei",
+    "value": {
+      "country": "TW",
+      "city": "Taipei"
+    }
   },
   {
-    "city": "Plymouth",
-    "country": "MS"
+    "display": "Port of Spain",
+    "value": {
+      "country": "TT",
+      "city": "Port of Spain"
+    }
   },
   {
-    "city": "Lilongwe",
-    "country": "MW"
+    "display": "Ankara",
+    "value": {
+      "country": "TR",
+      "city": "Ankara"
+    }
   },
   {
-    "city": "Noumea",
-    "country": "NC"
+    "display": "Colombo",
+    "value": {
+      "country": "LK",
+      "city": "Colombo"
+    }
   },
   {
-    "city": "Abuja",
-    "country": "NG"
+    "display": "Vaduz",
+    "value": {
+      "country": "LI",
+      "city": "Vaduz"
+    }
   },
   {
-    "city": "Islamabad",
-    "country": "PK"
+    "display": "Riga",
+    "value": {
+      "country": "LV",
+      "city": "Riga"
+    }
   },
   {
-    "city": "East Jerusalem",
-    "country": "PS"
+    "display": "Nuku'alofa",
+    "value": {
+      "country": "TO",
+      "city": "Nuku'alofa"
+    }
   },
   {
-    "city": "Belgrade",
-    "country": "RS"
+    "display": "Vilnius",
+    "value": {
+      "country": "LT",
+      "city": "Vilnius"
+    }
   },
   {
-    "city": "Honiara",
-    "country": "SB"
+    "display": "Luxembourg",
+    "value": {
+      "country": "LU",
+      "city": "Luxembourg"
+    }
   },
   {
-    "city": "Khartoum",
-    "country": "SD"
+    "display": "Monrovia",
+    "value": {
+      "country": "LR",
+      "city": "Monrovia"
+    }
   },
   {
-    "city": "Jamestown",
-    "country": "SH"
+    "display": "Maseru",
+    "value": {
+      "country": "LS",
+      "city": "Maseru"
+    }
   },
   {
-    "city": "Longyearbyen",
-    "country": "SJ"
+    "display": "Bangkok",
+    "value": {
+      "country": "TH",
+      "city": "Bangkok"
+    }
   },
   {
-    "city": "San Marino",
-    "country": "SM"
+    "display": "Port-aux-Francais",
+    "value": {
+      "country": "TF",
+      "city": "Port-aux-Francais"
+    }
   },
   {
-    "city": "Paramaribo",
-    "country": "SR"
+    "display": "Lome",
+    "value": {
+      "country": "TG",
+      "city": "Lome"
+    }
   },
   {
-    "city": "Philipsburg",
-    "country": "SX"
+    "display": "N'Djamena",
+    "value": {
+      "country": "TD",
+      "city": "N'Djamena"
+    }
   },
   {
-    "city": "Damascus",
-    "country": "SY"
+    "display": "Cockburn Town",
+    "value": {
+      "country": "TC",
+      "city": "Cockburn Town"
+    }
   },
   {
-    "city": "Lome",
-    "country": "TG"
+    "display": "Tripolis",
+    "value": {
+      "country": "LY",
+      "city": "Tripolis"
+    }
   },
   {
-    "city": "Dili",
-    "country": "TL"
+    "display": "Vatican City",
+    "value": {
+      "country": "VA",
+      "city": "Vatican City"
+    }
   },
   {
-    "city": "Kampala",
-    "country": "UG"
+    "display": "Kingstown",
+    "value": {
+      "country": "VC",
+      "city": "Kingstown"
+    }
   },
   {
-    "city": "Tashkent",
-    "country": "UZ"
+    "display": "Abu Dhabi",
+    "value": {
+      "country": "AE",
+      "city": "Abu Dhabi"
+    }
   },
   {
-    "city": "Charlotte Amalie",
-    "country": "VI"
+    "display": "Andorra la Vella",
+    "value": {
+      "country": "AD",
+      "city": "Andorra la Vella"
+    }
+  },
+  {
+    "display": "St. John's",
+    "value": {
+      "country": "AG",
+      "city": "St. John's"
+    }
+  },
+  {
+    "display": "Kabul",
+    "value": {
+      "country": "AF",
+      "city": "Kabul"
+    }
+  },
+  {
+    "display": "The Valley",
+    "value": {
+      "country": "AI",
+      "city": "The Valley"
+    }
+  },
+  {
+    "display": "Charlotte Amalie",
+    "value": {
+      "country": "VI",
+      "city": "Charlotte Amalie"
+    }
+  },
+  {
+    "display": "Reykjavik",
+    "value": {
+      "country": "IS",
+      "city": "Reykjavik"
+    }
+  },
+  {
+    "display": "Tehran",
+    "value": {
+      "country": "IR",
+      "city": "Tehran"
+    }
+  },
+  {
+    "display": "Yerevan",
+    "value": {
+      "country": "AM",
+      "city": "Yerevan"
+    }
+  },
+  {
+    "display": "Tirana",
+    "value": {
+      "country": "AL",
+      "city": "Tirana"
+    }
+  },
+  {
+    "display": "Luanda",
+    "value": {
+      "country": "AO",
+      "city": "Luanda"
+    }
+  },
+  {
+    "display": "Pago Pago",
+    "value": {
+      "country": "AS",
+      "city": "Pago Pago"
+    }
+  },
+  {
+    "display": "Buenos Aires",
+    "value": {
+      "country": "AR",
+      "city": "Buenos Aires"
+    }
+  },
+  {
+    "display": "Canberra",
+    "value": {
+      "country": "AU",
+      "city": "Canberra"
+    }
+  },
+  {
+    "display": "Vienna",
+    "value": {
+      "country": "AT",
+      "city": "Vienna"
+    }
+  },
+  {
+    "display": "Oranjestad",
+    "value": {
+      "country": "AW",
+      "city": "Oranjestad"
+    }
+  },
+  {
+    "display": "New Delhi",
+    "value": {
+      "country": "IN",
+      "city": "New Delhi"
+    }
+  },
+  {
+    "display": "Mariehamn",
+    "value": {
+      "country": "AX",
+      "city": "Mariehamn"
+    }
+  },
+  {
+    "display": "Baku",
+    "value": {
+      "country": "AZ",
+      "city": "Baku"
+    }
+  },
+  {
+    "display": "Dublin",
+    "value": {
+      "country": "IE",
+      "city": "Dublin"
+    }
+  },
+  {
+    "display": "Jakarta",
+    "value": {
+      "country": "ID",
+      "city": "Jakarta"
+    }
+  },
+  {
+    "display": "Kiev",
+    "value": {
+      "country": "UA",
+      "city": "Kiev"
+    }
+  },
+  {
+    "display": "Doha",
+    "value": {
+      "country": "QA",
+      "city": "Doha"
+    }
+  },
+  {
+    "display": "Maputo",
+    "value": {
+      "country": "MZ",
+      "city": "Maputo"
+    }
   }
 ]

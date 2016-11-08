@@ -1,10 +1,9 @@
-<md-autocomplete md-selected-item="selectedItem"
-  md-search-text="searchText" md-items="item in getMatches(searchText)"
-  md-item-text="item.display" placeholder="Search for another city">
+<md-autocomplete md-selected-item="selectedItem" md-search-text="autoCtrl.searchText" md-items="item in autoCtrl.querySearch(autoCtrl.searchText)"
+  md-item-text="item.display" placeholder="Search for another city" md-selected-item-change="autoCtrl.addCity(item.value)">
   <md-item-template>
     <span md-highlight-text="searchText">{{item.display}}</span>
   </md-item-template>
   <md-not-found>
-    No matches found.
+    No cities found for "{{autoCtrl.searchText}}".
   </md-not-found>
 </md-autocomplete>
