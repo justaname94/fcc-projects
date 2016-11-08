@@ -10,7 +10,7 @@
   Divider Color: #BDBDBD
 */
 
-body {
+html, body {
   background-color: #BDBDBD;
 }
 
@@ -118,4 +118,5 @@ body {
 #autocomplete {
   margin: 0 auto;
   max-width: 500px;
+  margin-bottom: 15px;
 }

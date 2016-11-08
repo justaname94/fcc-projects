@@ -78,6 +78,8 @@
       if(data) {
         city = data.city + ',' + data.country;
         weatherService.loadWeatherFromCity(city);
+        // Clean search bar after city is loaded
+        this.searchText = "";
       }
     };
 
