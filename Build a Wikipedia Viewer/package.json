@@ -1,0 +1,22 @@
+{
+  "name": "wikipedia_search_app",
+  "version": "1.0.0",
+  "description": "Single-Page App of a wikipedia article search in AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "wikipedia",
+    "angularjs",
+    "search"
+  ],
+  "author": "Roniel Valdez",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
