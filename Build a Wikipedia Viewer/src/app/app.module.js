@@ -1,1 +1,5 @@
-angular.module('wikipediaApp', []);
+(function() {
+  'use strict';
+
+  angular.module('wikipediaApp', []);
+})();
