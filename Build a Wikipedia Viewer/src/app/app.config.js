@@ -13,7 +13,8 @@
 
     $routeProvider
       .when('/', {
-        templateUrl: 'partials/home.html'
-      });
+        templateUrl: 'templates/search_bar/search_bar.html'
+      })
+      .otherwise({ redirectTo: '/' });
   }
 })();
