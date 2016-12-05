@@ -3,6 +3,7 @@
   "strict": "global",
   "globals": {
     // Imports
-    "require": false
+    "require": false,
+    "module" : false
   }
 }
