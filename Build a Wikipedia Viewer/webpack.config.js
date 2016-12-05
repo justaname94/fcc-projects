@@ -33,11 +33,6 @@ module.exports = {
         loader: 'vue'
       },
 
-      {
-        test: /\.scss$/,
-        loaders: ["style-loader", "css-loader", "sass-loader"]
-      },
-
       // Take all the .css files, combine their contents and stract them to a single "styles.css"
       // Doesn't support HMR
       // {
@@ -45,11 +40,21 @@ module.exports = {
       //   loader: ExtractTextPlugin.extract("style-loader","css-loader")
       // },
 
-      // Use DataURL for images less than 1MB
+      // Use DataURL for data less than 1MB
       {
-        test: [/\.png$/, /\.jpg$/],
+        test: /\.(png|woff|woff2|eot|ttf|svg|jpg)$/,
         loader: 'url-loader',
         query: { limit: 1024 }
+      },
+
+      {
+        test: /\.scss$/,
+        loaders: ["style-loader", "css-loader", "sass-loader"]
+      },
+
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader']
       }
     ]
   },
@@ -70,9 +75,13 @@ module.exports = {
     },
   },
 
-  resolve: {
-    alias: {
-      'vue$': 'vue/dist/vue.common.js'
-    }
-}
+  // resolve: {
+  //   alias: {
+      // Fetch vue template compiler which npm does not look for by default
+      // (use this if you're loading vue from npm')
+      // 'vue$': 'vue/dist/vue.common.js'
+  //   }
+  // }
 };
+
+
