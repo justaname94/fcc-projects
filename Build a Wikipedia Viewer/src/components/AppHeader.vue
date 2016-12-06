@@ -1,12 +1,11 @@
 <template>
   <header>
-    <div class="container-fluid">
-      <div class="row">
-        <nav class="navbar navbar-light bg-faded">
-          <a class="navbar-brand" href="#">Navbar</a>
-        </nav>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <a class="navbar-brand nav-link" href="#">Search</a>
+        <a class="navbar-brand navbar-right nav-link" href="#">History</a>
       </div>
-    </div>
+    </nav>
   </header>
 </template>
 
@@ -20,7 +19,3 @@
   }
 </script>
 
-<style>
-
-
-</style>

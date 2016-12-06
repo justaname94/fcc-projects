@@ -72,6 +72,7 @@ module.exports = {
     loaders: {
       js: 'babel',
       // css: ExtractTextPlugin.extract("css"),
+      scss: 'style!css!sass'
     },
   },
 

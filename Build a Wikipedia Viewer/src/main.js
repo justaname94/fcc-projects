@@ -10,12 +10,14 @@ import css from './sass/main.scss';
 
 // Import all Vue Components
 import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
 
 Vue.use(VueResource);
 
 const vm = new Vue({
   el: '#app',
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   }
 });
