@@ -6,4 +6,9 @@ body {
 
 a {
   color: $primary-color;
+
+  &:hover {
+    text-decoration: none;
+    color: #28715E;
+  }
 }

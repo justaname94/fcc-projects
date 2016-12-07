@@ -9,11 +9,18 @@
   @media (min-width: 768px) {
    width: 450px;
   }
+
+  /* IPhone 5 viewport */
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+   width: 300px;
+  }
 }
 
 .search-container input#search{
   @include left-border-radius(4px);
-  min-width: 300px;
+  width: 300px;
   height: 45px;
   border: $thin-border;
   border-right: none;
@@ -22,8 +29,15 @@
   padding-left: 15px;
   outline: none;
 
-  @media (min-width: 768px) {
-    width: 400px;
+  @media (max-width: 320px) {
+    width: 200px;
+  }
+
+  /* IPhone 5 viewport */
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px) {
+   width: 250px;
   }
 }
 
