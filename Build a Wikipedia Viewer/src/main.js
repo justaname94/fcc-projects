@@ -10,10 +10,11 @@ import FontAwesome from '../bower_components/font-awesome/css/font-awesome.min.c
 // (automatically converted from SCSS to CSS by Webpack)
 import CSS from './sass/main.scss';
 
-// Import all Vue Components
+// Vue Components
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import SearchBar from './components/SearchBar.vue';
+import WikipediaArticle from './components/WikipediaArticle.vue';
 
 Vue.use(VueResource);
 
@@ -22,6 +23,7 @@ const vm = new Vue({
   components: {
     AppHeader,
     SearchBar,
+    WikipediaArticle,
     AppFooter
   }
 });
