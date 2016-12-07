@@ -3,7 +3,6 @@
     <div class="search-container">
       <input type="text" id="search" v-model="searchQuery" placeholder="Enter a search term">
       <button class="icon"><i class="fa fa-search"></i></button>
-      {{searchQuery}}
     </div>
   </div>
 </template>
