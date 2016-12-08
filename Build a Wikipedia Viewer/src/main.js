@@ -14,6 +14,7 @@ import CSS from './sass/main.scss';
 import AppHeader from './components/AppHeader.vue';
 import AppFooter from './components/AppFooter.vue';
 import SearchBar from './components/SearchBar.vue';
+import RandomArticle from './components/RandomArticle.vue';
 import WikipediaArticle from './components/WikipediaArticle.vue';
 
 Vue.use(VueResource);
@@ -23,6 +24,7 @@ const vm = new Vue({
   components: {
     AppHeader,
     SearchBar,
+    RandomArticle,
     WikipediaArticle,
     AppFooter
   }
