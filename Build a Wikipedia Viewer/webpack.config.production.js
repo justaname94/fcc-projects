@@ -1,13 +1,15 @@
 'use strict';
 
+// Use by the CSS loader. See the loader for a detailed explanation
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = {
   // This is the "main" file which should include all other modules
   entry: './src/main.js',
 
   output: {
     path: './dist',
-    // Production only (activated in dev because for some reason
-    // is needed for HMR to work)
+    // Production only
     publicPath: 'dist/',
     filename: 'bundle.js'
   },
@@ -37,17 +39,24 @@ module.exports = {
         query: { limit: 1024 }
       },
 
+      // Take all the .css and .scss files, convert the SCSS to CSS,
+      // combine their contents and stract them to a single "styles.css".
+      // Doesn't support HMR
       {
         test: /\.scss$/,
-        loaders: ["style-loader", "css-loader", "sass-loader"]
+        loader: ExtractTextPlugin.extract(["css", "sass"])
       },
 
       {
         test: /\.css$/,
-        loaders: ['style-loader', 'css-loader']
+        loader: ExtractTextPlugin.extract(["css"])
       }
     ]
   },
+
+  plugins: [
+    new ExtractTextPlugin("styles.css") // Extract to styles.css file
+  ],
 
   babel: {
       presets: ['es2015', "stage-0"],
@@ -57,7 +66,7 @@ module.exports = {
   vue: {
     loaders: {
       js: 'babel',
-      scss: 'style!css!sass'
+      scss: ExtractTextPlugin.extract(["css", "sass"]),
     },
   },
 

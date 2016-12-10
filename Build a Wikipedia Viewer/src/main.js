@@ -2,6 +2,7 @@
 
 // Vendor Code
 import Vue from '../bower_components/vue/dist/vue';
+// import VueRouter from 'vue-router';
 import VueResource from '../bower_components/vue-resource/dist/vue-resource';
 import Bootstrap from '../bower_components/bootstrap/dist/css/bootstrap.min.css';
 import FontAwesome from '../bower_components/font-awesome/css/font-awesome.min.css';
