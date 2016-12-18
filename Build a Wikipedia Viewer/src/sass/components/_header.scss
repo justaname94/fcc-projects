@@ -23,15 +23,6 @@ nav.navbar.navbar-default h4.navbar-text {
     left: 15px;
     display: inline-block;
   }
-
-  /* IPhone 5 viewport */
-  @media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px) {
-    font-size: 14px;
-    left: 10px;
-    padding-top: 5px;
-  }
 }
 
 .navbar-nav > li > a, .navbar-brand {
