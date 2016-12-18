@@ -34,4 +34,8 @@
 
 .remove-article {
   float: right;
+
+  &:hover {
+    color: red;
+  }
 }

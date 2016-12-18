@@ -3,14 +3,15 @@
     <div class="row">
       <ul class="list-unstyled wiki-article">
         <transition-group name="fade-down-animation"
-          enter-active-class="animated fadeInDown"
+          enter-active-class="animated fadeIn"
+          move-class="animated fadeOut"
         >
-          <a v-for="article in filteredArticles" v-bind:href="article.link" v-bind:key="article.title" target="_blank">
-            <li class="col-md-10 col-md-offset-1">
+          <li v-for="article in filteredArticles" v-bind:href="article.link" v-bind:key="article.title" target="_blank" class="col-md-10 col-md-offset-1">
+            <a v-bind:href="article.link" target="blank" v-on:click="saveArticle(article)">
               <h4 class=""><strong>{{ article.title }}</strong></h4>
               <h5>{{ article.description }}</h5>
-            </li>
-          </a>
+            </a>
+          </li>
         </transition-group>
       </ul>
     </div>
@@ -50,6 +51,7 @@
       onSearchQueryChange(searchQuery) {
         // Remove articles if the search query is empty
         if(searchQuery === '') {
+          this.currentSearchQuery = searchQuery;
           this.articles = [];
           return;
         }
@@ -64,7 +66,18 @@
           // Pass the data to the computed property filteredArticles
          this.articles = data.body.query.pages;
         });
+      },
+      saveArticle(article) {
+
+        // Save the titles on an array to check for duplicates
+        // and dump them
+        if(bus.savedTitles.indexOf(article.title) > -1)
+          return;
+
+        bus.savedArticles.push(article);
+        bus.savedTitles.push(article.title);
       }
+
     }
   }
 </script>
