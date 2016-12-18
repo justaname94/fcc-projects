@@ -61,13 +61,13 @@ module.exports = {
     },
   },
 
-  // resolve: {
-  //   alias: {
+  resolve: {
+    alias: {
       // Fetch vue template compiler which npm does not look for by default
       // (use this if you're loading vue from npm')
-      // 'vue$': 'vue/dist/vue.common.js'
-  //   }
-  // }
+      'vue$': 'vue/dist/vue.common.js'
+    }
+  }
 };
 
 

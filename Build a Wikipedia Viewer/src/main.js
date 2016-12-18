@@ -1,9 +1,11 @@
 'use strict';
 
-// Vendor Code
-import Vue from '../bower_components/vue/dist/vue';
-// import VueRouter from 'vue-router';
-import VueResource from '../bower_components/vue-resource/dist/vue-resource';
+// Vendor JS
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import VueResource from 'vue-resource';
+
+// Vendor CSS
 import Bootstrap from '../bower_components/bootstrap/dist/css/bootstrap.min.css';
 import FontAwesome from '../bower_components/font-awesome/css/font-awesome.min.css';
 import Animate from '../bower_components/animate.css/animate.min.css';
@@ -14,20 +16,24 @@ import CSS from './sass/main.scss';
 
 // Vue Components
 import AppHeader from './components/AppHeader.vue';
-import AppFooter from './components/AppFooter.vue';
-import SearchBar from './components/SearchBar.vue';
-import RandomArticle from './components/RandomArticle.vue';
-import WikipediaArticle from './components/WikipediaArticle.vue';
 
+// Vue route paths
+import Home from './components/routerComponents/Home.vue';
+import History from './components/routerComponents/History.vue';
+
+Vue.use(VueRouter);
 Vue.use(VueResource);
 
-const vm = new Vue({
-  el: '#app',
-  components: {
-    AppHeader,
-    SearchBar,
-    RandomArticle,
-    WikipediaArticle,
-    AppFooter
-  }
+const routes = [
+  { path: '/', component: Home },
+  { path: '/history', component: History }
+];
+
+const router = new VueRouter({
+  routes
 });
+
+const app = new Vue({
+  router,
+  components: { AppHeader }
+}).$mount('#app');

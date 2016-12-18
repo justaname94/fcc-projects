@@ -1,5 +1,7 @@
 'use strict';
 
+var webpack = require('webpack');
+
 // Use by the CSS loader. See the loader for a detailed explanation
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -10,7 +12,7 @@ module.exports = {
   output: {
     path: './dist',
     // Production only
-    publicPath: 'dist/',
+    publicPath: '/dist/',
     filename: 'bundle.js'
   },
 
@@ -54,10 +56,6 @@ module.exports = {
     ]
   },
 
-  plugins: [
-    new ExtractTextPlugin("styles.css") // Extract to styles.css file
-  ],
-
   babel: {
       presets: ['es2015', "stage-0"],
       plugins: ['transform-runtime']
@@ -70,13 +68,32 @@ module.exports = {
     },
   },
 
-  // resolve: {
-  //   alias: {
+  plugins: [
+    // Extract to styles.css file
+    new ExtractTextPlugin("styles.css"),
+     // short-circuits all Vue.js warning code
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    }),
+    // minify with dead-code elimination
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+    // optimize module ids by occurence count
+    new webpack.optimize.OccurenceOrderPlugin()
+  ],
+
+  resolve: {
+    alias: {
       // Fetch vue template compiler which npm does not look for by default
       // (use this if you're loading vue from npm')
-      // 'vue$': 'vue/dist/vue.common.js'
-  //   }
-  // }
+      'vue$': 'vue/dist/vue.common.js'
+    }
+  }
 };
 
 

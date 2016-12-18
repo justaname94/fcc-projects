@@ -49,14 +49,15 @@
 
     methods: {
       onSearchQueryChange(searchQuery) {
+        // Prevent to load the same query more than once
         if(this.currentSearchQuery === searchQuery) return;
         this.currentSearchQuery = searchQuery;
 
-        // https://en.wikipedia.org/?curid=
         var api = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch="
         var queryEncoded = encodeURIComponent(searchQuery);
-        this.$parent.$http.jsonp(api + queryEncoded).then((data) => {
-          this.articles = data.body.query.pages;
+        this.$http.jsonp(api + queryEncoded).then((data) => {
+          // Pass the data to the computed property filteredArticles
+         this.articles = data.body.query.pages;
         });
       }
     }

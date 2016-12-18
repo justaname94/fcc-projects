@@ -15,6 +15,10 @@ nav.navbar.navbar-default h4.navbar-text {
   margin-bottom: 0;
   margin-top: 10px;
 
+  &:focus {
+    color: red;
+  }
+
   @media (max-width: 768px) {
     left: 15px;
     display: inline-block;

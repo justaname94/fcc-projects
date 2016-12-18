@@ -11,4 +11,9 @@ a {
     text-decoration: none;
     color: #28715E;
   }
+
+  &:focus {
+    color: #28715E !important;
+    text-decoration: none;
+  }
 }
