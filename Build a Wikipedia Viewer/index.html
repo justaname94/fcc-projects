@@ -4,13 +4,21 @@
   <meta charset="UTF-8">
   <title>Build a Wikipedia Viwer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="dist/styles.css">
+  <!--<link rel="stylesheet" type="text/css" href="dist/styles.css">-->
 </head>
 <body>
 
   <div id="app">
     <app-header></app-header>
-    <router-view></router-view>
+
+    <transition
+      name="route-change-transition"
+      enter-active-class="animated fadeIn"
+    >
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+    </transition>
   </div>
 
   <script src="dist/bundle.js"></script>

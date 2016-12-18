@@ -21,7 +21,6 @@
 
     methods: {
       searchArticle(searchQuery) {
-        if(searchQuery)
           bus.$emit('search-query', searchQuery);
       }
     }

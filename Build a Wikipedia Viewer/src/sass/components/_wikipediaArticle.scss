@@ -10,6 +10,10 @@
   &:hover {
     text-decoration: none;
   }
+
+  &:focus {
+    color: inherit !important;
+  }
 }
 
 .wiki-article li {

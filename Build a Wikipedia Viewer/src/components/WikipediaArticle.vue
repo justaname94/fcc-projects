@@ -4,7 +4,6 @@
       <ul class="list-unstyled wiki-article">
         <transition-group name="fade-down-animation"
           enter-active-class="animated fadeInDown"
-          tag="a"
         >
           <a v-for="article in filteredArticles" v-bind:href="article.link" v-bind:key="article.title" target="_blank">
             <li class="col-md-10 col-md-offset-1">
@@ -49,8 +48,14 @@
 
     methods: {
       onSearchQueryChange(searchQuery) {
+        // Remove articles if the search query is empty
+        if(searchQuery === '') {
+          this.articles = [];
+          return;
+        }
         // Prevent to load the same query more than once
         if(this.currentSearchQuery === searchQuery) return;
+
         this.currentSearchQuery = searchQuery;
 
         var api = "https://en.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=10&prop=pageimages|extracts&pilimit=max&exintro&explaintext&exsentences=1&exlimit=max&gsrsearch="
