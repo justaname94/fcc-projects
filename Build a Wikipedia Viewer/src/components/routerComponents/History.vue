@@ -1,6 +1,5 @@
 <template>
   <div>
-    <search-bar></search-bar>
     <history-article></history-article>
   </div>
 </template>

@@ -30,13 +30,12 @@
         articles: bus.savedArticles,
       }
     },
-
     methods: {
       deleteArticle(article) {
         let index = bus.savedTitles.indexOf(article.title);
         bus.savedArticles.splice(index, 1);
         bus.savedTitles.splice(index, 1);
-      }
+      },
     }
   }
 </script>

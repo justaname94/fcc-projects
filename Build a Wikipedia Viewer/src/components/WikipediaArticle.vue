@@ -73,7 +73,6 @@
         // and dump them
         if(bus.savedTitles.indexOf(article.title) > -1)
           return;
-
         bus.savedArticles.push(article);
         bus.savedTitles.push(article.title);
       }
