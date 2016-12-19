@@ -1,0 +1,19 @@
+@import '../helpers/module';
+
+body {
+  background-color: #E0E7EB;
+}
+
+a {
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: none;
+    color: #28715E;
+  }
+
+  &:focus {
+    color: #28715E !important;
+    text-decoration: none;
+  }
+}

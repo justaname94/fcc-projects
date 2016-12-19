@@ -1,0 +1,41 @@
+@import '../helpers/module';
+
+.wiki-article {
+  margin-top: 15px;
+}
+
+.wiki-article a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: inherit !important;
+  }
+}
+
+.wiki-article li {
+  background-color: #FFF;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:hover {
+    border-left: 4px solid #59B68C;
+    cursor: pointer;
+  }
+}
+
+.wiki-article h4 {
+  display: inline;
+}
+
+.remove-article {
+  float: right;
+
+  &:hover {
+    color: red;
+  }
+}

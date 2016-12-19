@@ -1,0 +1,37 @@
+@import '../helpers/module';
+
+nav.navbar.navbar-default a.nav-link {
+
+  color: $primary-color;
+  border-left: $thin-border;
+  border-right: $thin-border;
+  &:hover {
+    background: $hover-background;
+  }
+}
+
+nav.navbar.navbar-default h4.navbar-text {
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 10px;
+
+  @media (max-width: 768px) {
+    left: 15px;
+    display: inline-block;
+  }
+}
+
+.navbar-nav > li > a, .navbar-brand {
+  padding-top:10px;
+  padding-bottom: 0;
+  height: 40px;
+}
+
+.navbar {
+  min-height: 40px !important;
+  border-radius: 0;
+}
+
+.history.router-link-active {
+  background-color: #e6e6e6;
+}
